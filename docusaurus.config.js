@@ -26,7 +26,15 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/textbase-sms/textbase-docs',
         },
-        blog: false,
+        blog: {
+          showReadingTime: false,
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/textbase-sms/textbase-docs',
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
       }),
     ],
   ],
