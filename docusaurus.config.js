@@ -15,7 +15,6 @@ const config = {
   favicon: 'img/textbase.png',
   organizationName: 'textbase', // Usually your GitHub org/user name.
   projectName: 'textbase-docs', // Usually your repo name.
-  blog: false,
 
   presets: [
     [
@@ -27,15 +26,7 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/textbase-sms/textbase-docs',
         },
-        blog: {
-          showReadingTime: false,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/textbase-sms/textbase-docs',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
+        blog: false,
       }),
     ],
   ],
