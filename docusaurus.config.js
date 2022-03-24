@@ -15,6 +15,7 @@ const config = {
   favicon: 'img/textbase.png',
   organizationName: 'textbase', // Usually your GitHub org/user name.
   projectName: 'textbase-docs', // Usually your repo name.
+  blog: false,
 
   presets: [
     [
