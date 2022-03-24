@@ -45,8 +45,8 @@ const config = {
       navbar: {
         title: 'Textbase',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Textbase Logo',
+          src: 'img/textbase.png',
         },
         items: [
           {
